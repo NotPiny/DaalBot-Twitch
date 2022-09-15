@@ -149,7 +149,7 @@ client.on('message', (channel, tags, message, self) => {
                         const lookupIdStr = message.replace(/[ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijjklmnopqrstuvwxyz<>.,'#:;]/g, '')
                         const lookupId = parseInt(lookupIdStr);
                         if (!lookupId > quoteAmount) {
-                            const quote = fs.readFileSync(`./settings/${channelName}/quotes/${lookupId}.quote`)
+                            const quote = fs.readFileSync(`./settings/${channelName}/quotes/${lookupId}.quote`).toString();
                             send(quote)
                         } else {
                             send(`Invalid Id!`)
