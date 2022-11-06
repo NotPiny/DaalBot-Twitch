@@ -3,10 +3,7 @@
         "notpiny"
     ],
     "channels": [
-        "DaalSAVAGE786", 
-        "QuimbyAlert", 
-        "daalbott", 
-        "PatheticChris"
+        "Outdated: This is now being controlled by the channels.list file."
     ],
     "client": {
         "name": "DaalBotT"

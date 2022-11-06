@@ -13,5 +13,8 @@
     },
     "scripts": {
         "launch": "node app.js"
+    },
+    "devDependencies": {
+        "@types/node": "^18.8.4"
     }
 }
